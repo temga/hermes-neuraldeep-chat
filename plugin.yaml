@@ -1,0 +1,11 @@
+name: neuraldeep-provider
+kind: model-provider
+version: 1.0.0
+description: "NeuralDeep — self-hosted OpenAI-compatible AI hub на собственных GPU в РФ (152-ФЗ). Модели: gpt-oss-120b, qwen3.6-35b-a3b, gemma-4-31b."
+author: Artem Orlov
+requires_env:
+  - name: NEURALDEEP_API_KEY
+    description: "API-ключ NeuralDeep (https://neuraldeep.ru/app)"
+    prompt: "NeuralDeep API key"
+    url: "https://neuraldeep.ru/"
+    password: true
