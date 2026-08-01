@@ -6,9 +6,16 @@
 
 ## Установка
 
-    hermes plugins install temga/hermes-neuraldeep-chat --enable
+### Standalone
 
-Или через [hermes-ru-ecosystem](https://github.com/temga/hermes-ru-ecosystem):
+`hermes plugins install` клонирует репозиторий плоско в `~/.hermes/plugins/neuraldeep-provider/`, но Provider Registry сканирует только `~/.hermes/plugins/model-providers/<name>/`. Без симлинка провайдер не появится в `hermes model`:
+
+    hermes plugins install temga/hermes-neuraldeep-chat --enable
+    ln -s ~/.hermes/plugins/neuraldeep-provider ~/.hermes/plugins/model-providers/neuraldeep
+
+### Через hermes-ru-ecosystem
+
+Если у вас несколько плагинов российской экосистемы, `install.sh` создаст симлинк автоматически:
 
     curl -fsSL https://raw.githubusercontent.com/temga/hermes-ru-ecosystem/main/install.sh | bash
 
