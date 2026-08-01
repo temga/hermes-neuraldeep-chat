@@ -1,12 +1,12 @@
 # Плагин NeuralDeep для Hermes Agent
 
-[![GitHub](https://img.shields.io/badge/GitHub-temga%2Fhermes--neuraldeep--plugin-blue)](https://github.com/temga/hermes-neuraldeep-plugin)
+[![GitHub](https://img.shields.io/badge/GitHub-temga%2Fhermes--neuraldeep--chat-blue)](https://github.com/temga/hermes-neuraldeep-chat)
 
 [NeuralDeep](https://neuraldeep.ru/) — self-hosted AI-хаб на собственных GPU в России (152-ФЗ). OpenAI-совместимый API к LLM, эмбеддингам, реранку, STT, vision, OCR, image generation и поиску — всё по одному `sk-` ключу.
 
 ## Установка
 
-    hermes plugins install temga/hermes-neuraldeep-plugin --enable
+    hermes plugins install temga/hermes-neuraldeep-chat --enable
 
 Или через [hermes-ru-ecosystem](https://github.com/temga/hermes-ru-ecosystem):
 
@@ -52,7 +52,7 @@ Free (150 запросов / 3 часа), Coder, Starter, Pro. Подробне�
 
 ## Репозиторий
 
-- **GitHub:** https://github.com/temga/hermes-neuraldeep-plugin
+- **GitHub:** https://github.com/temga/hermes-neuraldeep-chat
 
 ## Лицензия
 
